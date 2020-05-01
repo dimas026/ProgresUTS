@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoaDzikir">
+    <ImageView
+        android:id="@+id/header"
+        android:src="@drawable/green_clover_scroll_clover"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <ScrollView
+        android:id="@+id/footer"
+        android:layout_below="@id/header"
+        android:background="@drawable/sp_ractangle_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img_satu"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"/>
+
+            <TextView
+                android:id="@+id/tv_satu"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:text="@string/bab"
+                android:layout_width="300dp"
+                android:layout_height="90dp" />
+
+            <View
+                android:id="@+id/v_saparator"
+                android:background="#000000"
+                android:layout_below="@+id/tv_satu"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+            <ImageView
+                android:id="@+id/img_dua"
+                android:layout_below="@id/img_satu"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"/>
+
+            <TextView
+                android:id="@+id/tv_dua"
+                android:layout_below="@id/tv_satu"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:text="@string/bab"
+                android:layout_width="300dp"
+                android:layout_height="90dp" />
+            <View
+                android:background="#000000"
+                android:layout_below="@+id/tv_dua"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+            <ImageView
+                android:id="@+id/img_tiga"
+                android:layout_below="@id/img_dua"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"/>
+
+            <TextView
+                android:id="@+id/tv_tiga"
+                android:layout_below="@id/tv_dua"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:text="@string/bab"
+                android:layout_width="300dp"
+                android:layout_height="90dp" />
+            <View
+                android:background="#000000"
+                android:layout_below="@+id/tv_tiga"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+            <ImageView
+                android:id="@+id/img_empat"
+                android:layout_below="@id/img_tiga"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"/>
+
+            <TextView
+                android:id="@+id/tv_empat"
+                android:layout_below="@id/tv_tiga"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:text="@string/bab"
+                android:layout_width="300dp"
+                android:layout_height="90dp" />
+            <View
+                android:background="#000000"
+                android:layout_below="@+id/tv_empat"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+            <ImageView
+                android:id="@+id/img_lima"
+                android:layout_below="@id/img_empat"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"/>
+
+            <TextView
+                android:id="@+id/tv_lima"
+                android:layout_below="@id/tv_empat"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:text="@string/bab"
+                android:layout_width="300dp"
+                android:layout_height="90dp" />
+            <View
+                android:background="#000000"
+                android:layout_below="@+id/tv_lima"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+            <ImageView
+                android:id="@+id/img_enam"
+                android:layout_below="@id/img_lima"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"/>
+
+            <TextView
+                android:id="@+id/tv_enam"
+                android:layout_below="@id/tv_lima"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:text="@string/bab"
+                android:layout_width="300dp"
+                android:layout_height="90dp" />
+            <View
+                android:background="#000000"
+                android:layout_below="@+id/tv_enam"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+            <ImageView
+                android:id="@+id/img_tujuh"
+                android:layout_below="@id/img_enam"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"/>
+
+            <TextView
+                android:id="@+id/tv_tujuh"
+                android:layout_below="@id/tv_enam"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:text="@string/bab"
+                android:layout_width="300dp"
+                android:layout_height="90dp" />
+            <View
+                android:background="#000000"
+                android:layout_below="@+id/tv_tujuh"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+            <ImageView
+                android:id="@+id/img_delapan"
+                android:layout_below="@id/img_tujuh"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"/>
+
+            <TextView
+                android:id="@+id/tv_delapan"
+                android:layout_below="@id/tv_tujuh"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:text="@string/bab"
+                android:layout_width="300dp"
+                android:layout_height="90dp" />
+        </RelativeLayout>
+    </ScrollView>
+    <ImageView
+        android:layout_below="@id/footer"
+        android:src="@drawable/green_clover_scroll_clover"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+
+</RelativeLayout>

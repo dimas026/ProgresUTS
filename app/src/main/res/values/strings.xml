@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">UTS PPB</string>
+    <string name="judul">Doa Dan Dzikir Setelah Sholat</string>
+    <string name="satu">Doa Dan Dzikir Setelah Sholat</string>
+    <string name="dua">Doa - Doa Lengkap</string>
+    <string name="sub_dua">dari Al-Quran dan Hadits</string>
+    <string name="tiga">Dzikir setelah Sholat</string>
+    <string name="sub_tiga">arabic only</string>
+    <string name="empat">Dzikir pagi</string>
+    <string name="lima">Dzikir Petang</string>
+    <string name="enam">77 Tanya Jawab Seputar Petang</string>
+    <string name="tujuh">Arti dari Dalil Dzikir</string>
+    <string name="delapan">Manfaat Dzikir</string>
+    <string name="sembilan">Hasbunallah Wa Nimal Wakil</string>
+    <string name="sepuluh">Astagfirullah</string>
+    <string name="sebelas">Lailahaillallah</string>
+    <string name="duabelas">Alhamdulillah</string>
+    <string name="tigabelas">Adab Berdoa</string>
+    <string name="empatbelas">Tempat Mustajab</string>
+    <string name="sub_empatbelas">untuk Berdoa di Tanah Suci</string>
+    <string name="limabelas">untuk Berdoa di Tanah SuciAplikasi lainnya</string>
+    <string name="enambelas">ads</string>
+    <string name="tujuhbelas">Rate Aplikasi Ini</string>
+
+
+    <string name="bab">Dzikir Sholat Fardhu</string>
+    <string name="subbab">Doa Dan Dzikir sSetelah Shalat</string>
+    <string name="babdua">Doa - Doa Lengkap</string>
+    <string name="babtiga">Doa - Doa Lengkap</string>
+
+
+</resources>
